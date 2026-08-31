@@ -72,5 +72,8 @@ exec bash "${PACKAGER}" \
   --project-file codegen_setup.c \
   --project-file codegen_setup.h \
   --project-file README.md \
+  --project-file LICENSE \
+  --project-file project-manifest.toml \
+  --project-dir docs \
   --project-dir seeds \
   "${EXTRA_PROJECT[@]}"
