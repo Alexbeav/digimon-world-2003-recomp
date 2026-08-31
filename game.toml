@@ -1,0 +1,53 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "Digimon World 2003"
+id = "SLES-03936"
+players = 1
+exe = "disc/SLES_039.36"
+disc = ""
+load_address = "0x80010000"
+entry_pc = "0x80010E90"
+text_size = "0x000E1000"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Digimon World 2003 (Europe) (En,Fr,De,Es,It).bin"
+cue_name = "Digimon World 2003 (Europe) (En,Fr,De,Es,It).cue"
+boot_exe = "SLES_039.36"
+known_sizes = [692146560]
+known_md5 = [
+  "da76a5685b875c353343102b7587fded",
+]
+known_sha1 = [
+  "457cb233349ba841e03b33d8060f8fbcadd45cb3",
+]
+known_crc32 = [
+  "007df18e",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "digimon-world-2003- Recompiled"
+memcard_dir = "saves"
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "d9a471c440bbb4b9d4e8a5bbfedae9cf3552e5ffa4891afdce542fcb6ed2b525"

@@ -1,0 +1,31 @@
+{
+  "cue_path": "Digimon World 2003 (Europe) (En,Fr,De,Es,It).cue",
+  "cue_name": "Digimon World 2003 (Europe) (En,Fr,De,Es,It).cue",
+  "bin_name": "Digimon World 2003 (Europe) (En,Fr,De,Es,It).bin",
+  "track_count": 1,
+  "data_track_size": 692146560,
+  "data_track_md5": "da76a5685b875c353343102b7587fded",
+  "data_track_sha1": "457cb233349ba841e03b33d8060f8fbcadd45cb3",
+  "data_track_crc32": "007df18e",
+  "boot_exe": "SLES_039.36",
+  "serial": "SLES-03936",
+  "serial_exe": "SLES_039.36",
+  "volume_id": "DMW3",
+  "display_name": "digimon-world-2003-",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80010E90",
+  "text_size": "0x000E1000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "d9a471c440bbb4b9d4e8a5bbfedae9cf3552e5ffa4891afdce542fcb6ed2b525",
+  "boot_exe_sha256": "15f37849a81b9f00e7f20d00de7a465b663a9e86b9d08b05d32dd386be95c546",
+  "seed_count": 492,
+  "warnings": [
+    "cue has only 1 TRACK — Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
