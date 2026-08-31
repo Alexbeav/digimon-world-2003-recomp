@@ -14,7 +14,7 @@ locally. Exact-package setup, startup, and remote-byte gates remain open.
 
 ## Release controls
 
-- Framework: d60f5947e554702a45d84abd789f2f06405c6b97
+- Framework: afe9ab299aab0eeba1cc31f81bc4baf4e7fb2ab7
 - recomp-ui: 4eda65430a431e5685ae0c515ebcd912c7843bff
 - RetComM Studio: 249422969c1c59ac2a1f8aa2299e876a7133998e
 - Distribution: owned input only
