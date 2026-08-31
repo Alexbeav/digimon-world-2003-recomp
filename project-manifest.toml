@@ -30,6 +30,6 @@ commit = "249422969c1c59ac2a1f8aa2299e876a7133998e"
 [release]
 version = "0.3.0"
 platform = "windows-x64"
-graduation_state = "candidate"
+graduation_state = "bootstrap_verified"
 private_gameplay_confirmed = true
-public_package_status = "not_built"
+public_package_status = "local_candidate_built"
