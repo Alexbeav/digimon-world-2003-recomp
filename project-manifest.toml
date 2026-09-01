@@ -28,8 +28,8 @@ repository = "https://github.com/TechnicallyComputers/retcomm-studio"
 commit = "249422969c1c59ac2a1f8aa2299e876a7133998e"
 
 [release]
-version = "0.3.0"
+version = "0.3.3"
 platform = "windows-x64"
 graduation_state = "bootstrap_verified"
 private_gameplay_confirmed = true
-public_package_status = "local_candidate_built"
+public_package_status = "v0.3.3_name_repair_candidate"

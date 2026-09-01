@@ -13,3 +13,10 @@ and BIOS, and the setup host builds the playable executable locally.
 
 The package must not contain a disc, retail BIOS, generated retail code, save, capture,
 prebuilt playable executable, or private absolute path.
+
+## v0.3.3 executable-name correction
+
+Public `v0.3.0` can complete a build and then request the wrong executable.
+The corrected source uses `Digimon_World_2003_Recompiled` for CMake, the setup relaunch, and packaging.
+The 24-title source parity gate passes. An exact-ZIP automatic-relaunch canary
+must pass before release authorization.

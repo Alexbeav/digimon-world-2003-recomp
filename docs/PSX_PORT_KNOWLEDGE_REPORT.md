@@ -3,7 +3,7 @@
 - Date: 2026-08-31
 - Retail identity: Europe PAL `SLES-03936`
 - Architecture lane: source-only owned-input setup host
-- Release target: Windows x64, version `0.3.0`
+- Release target: Windows x64, version `0.3.3`
 - License boundary: portfolio files use GPL-3.0-only; dependencies keep their licenses
 
 ## Current state
@@ -32,3 +32,9 @@ locally. Exact-package setup, startup, and remote-byte gates remain open.
 
 The release work uses PSX-PUB-004, PSX-PUB-006, PSX-WIN-004,
 PSX-WIN-005, PSX-WIN-006, and PSX-PUB-011.
+
+## v0.3.3 setup correction
+
+The source now uses `Digimon_World_2003_Recompiled` as the only setup executable name. The batch source
+gate passes. The exact-ZIP automatic-relaunch canary and remote release audit
+remain open. Public `v0.3.0` remains unchanged.

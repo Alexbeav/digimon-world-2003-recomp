@@ -22,6 +22,7 @@ psxrecomp_add_game_runtime(psx-runtime
     # NETPLAY_LOBBY_URL "ws://netplay.retcomm.net:8765"
     ENABLE_SETUP_WIZARD
     WINDOW_TITLE "Digimon World 2003 Recompiled"
+    EXE_NAME "Digimon_World_2003_Recompiled"
     DEFAULT_GAME_CONFIG_PATH "game.toml"
     MAX_PLAYERS 1
     APP_ICON "${CMAKE_CURRENT_SOURCE_DIR}/assets/psxrecomp.ico"
