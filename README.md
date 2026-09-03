@@ -121,3 +121,9 @@ writes most of the code; the evidence discipline decides what survives.
 Bug reports welcome - expect them to be investigated the same way.
 
 tl;dr AI writes the code, but I always test it myself before pushing
+
+## v0.3.5 three-platform candidate
+
+The next release targets Windows x64, Linux x64, macOS Apple Silicon ARM64,
+and macOS Intel x64. These packages remain candidates until the exact archives
+pass the required native setup, startup, responsiveness, and clean-exit gates.
