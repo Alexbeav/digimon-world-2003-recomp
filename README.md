@@ -127,3 +127,7 @@ tl;dr AI writes the code, but I always test it myself before pushing
 The next release targets Windows x64, Linux x64, macOS Apple Silicon ARM64,
 and macOS Intel x64. These packages remain candidates until the exact archives
 pass the required native setup, startup, responsiveness, and clean-exit gates.
+
+## Development history
+
+Older source and separate candidates are preserved as fixed tags. See [the archive and recovery instructions](docs/BRANCH_ARCHIVE.md).
