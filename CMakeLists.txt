@@ -43,3 +43,12 @@ foreach(_PSX_RUNTIME_CONFIG game.toml game_options.toml)
             VERBATIM)
     endif()
 endforeach()
+
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/mods/preloaded")
+    add_custom_command(TARGET psx-runtime POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+            "${CMAKE_CURRENT_SOURCE_DIR}/mods/preloaded"
+            "$<TARGET_FILE_DIR:psx-runtime>/mods"
+        COMMENT "Staging reviewed preloaded mods"
+        VERBATIM)
+endif()
